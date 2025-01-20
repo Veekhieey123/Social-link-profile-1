@@ -1,0 +1,48 @@
+* {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box; 
+}
+body{
+    background-color: grey;
+}
+.container {
+    display: grid;
+    grid-template-columns:repeat(1,1fr);
+    row-gap: 20px;
+    border-width: 10px ;
+ }
+img {
+    display: block;
+    margin: auto;
+    border-radius: 50px;
+}
+.item {
+    text-align: center;
+    font-weight:bolder ;
+}
+h1{
+    text-align: center;
+}
+button{
+    color: brown;
+    contain: content;
+    padding: 20px;
+    row-gap: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+@media screen  and (min-width:375px) and (max-width:767px) {
+    .item {
+        background-color: aqua;
+    }
+}
+@media screen and (min-width:786px) and (max-width:1023px) {
+   .container {
+    background-color: blue;
+   } 
+}
+    
+
+
+   
